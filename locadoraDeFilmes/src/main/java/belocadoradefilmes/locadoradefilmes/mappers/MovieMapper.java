@@ -3,6 +3,7 @@ package belocadoradefilmes.locadoradefilmes.mappers;
 import belocadoradefilmes.locadoradefilmes.dtos.requests.MovieRequestDto;
 import belocadoradefilmes.locadoradefilmes.dtos.responses.MovieResponseDto;
 import belocadoradefilmes.locadoradefilmes.entities.Movie;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
@@ -12,7 +13,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class MovieMapper
 {
-    public Movie toEntity(MovieRequestDto dto)
+    public Movie toEntity(@Valid MovieRequestDto dto)
     {
         if (dto == null) return null;
 
@@ -37,14 +38,12 @@ public class MovieMapper
                 .build();
     }
 
-
     public List<MovieResponseDto> toDtos(List<Movie> movies)
     {
         return movies.stream().map(this::toDto).toList();
     }
 
-
-    public void updateEntity(MovieRequestDto dto, Movie movie)
+    public void updateEntity(@Valid MovieRequestDto dto, Movie movie)
     {
         if (movie == null || dto == null) return;
 

@@ -1,0 +1,336 @@
+2025-08-27 19:37:18 --- Starting LocadoraDeFilmesApplication using Java 21.0.6 with PID 4124 (C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes\target\classes started by Notebook Alex in C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes)
+2025-08-27 19:37:18 --- Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27 19:37:18 --- No active profile set, falling back to 1 default profile: "default"
+2025-08-27 19:37:18 --- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-27 19:37:18 --- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-27 19:37:24 --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 19:37:24 --- Finished Spring Data repository scanning in 201 ms. Found 1 JPA repository interface.
+2025-08-27 19:37:27 --- Tomcat initialized with port 80 (http)
+2025-08-27 19:37:27 --- Starting service [Tomcat]
+2025-08-27 19:37:27 --- Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27 19:37:27 --- Initializing Spring embedded WebApplicationContext
+2025-08-27 19:37:27 --- Root WebApplicationContext: initialization completed in 9319 ms
+2025-08-27 19:37:28 --- HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 19:37:28 --- HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-08-27 19:37:29 --- HHH000026: Second-level cache disabled
+2025-08-27 19:37:30 --- No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-27 19:37:30 --- HikariPool-1 - Starting...
+2025-08-27 19:37:32 --- HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@20f5d295
+2025-08-27 19:37:32 --- HikariPool-1 - Start completed.
+2025-08-27 19:37:32 --- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-27 19:37:38 --- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-27 19:37:39 --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:37:40 --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-27 19:37:41 --- LiveReload server is running on port 35729
+2025-08-27 19:37:42 --- Tomcat started on port 80 (http) with context path '/'
+2025-08-27 19:37:42 --- Started LocadoraDeFilmesApplication in 26.636 seconds (process running for 33.9)
+2025-08-27 19:39:57 --- Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27 19:39:57 --- Graceful shutdown complete
+2025-08-27 19:39:57 --- Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:39:57 --- HikariPool-1 - Shutdown initiated...
+2025-08-27 19:39:57 --- HikariPool-1 - Shutdown completed.
+2025-08-27 19:41:15 --- Starting LocadoraDeFilmesApplication using Java 21.0.6 with PID 9652 (C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes\target\classes started by Notebook Alex in C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes)
+2025-08-27 19:41:15 --- Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27 19:41:15 --- No active profile set, falling back to 1 default profile: "default"
+2025-08-27 19:41:16 --- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-27 19:41:16 --- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-27 19:41:19 --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 19:41:19 --- Finished Spring Data repository scanning in 215 ms. Found 1 JPA repository interface.
+2025-08-27 19:41:21 --- Tomcat initialized with port 80 (http)
+2025-08-27 19:41:21 --- Starting service [Tomcat]
+2025-08-27 19:41:21 --- Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27 19:41:21 --- Initializing Spring embedded WebApplicationContext
+2025-08-27 19:41:21 --- Root WebApplicationContext: initialization completed in 5471 ms
+2025-08-27 19:41:21 --- HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 19:41:22 --- HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-08-27 19:41:22 --- HHH000026: Second-level cache disabled
+2025-08-27 19:41:23 --- No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-27 19:41:23 --- HikariPool-1 - Starting...
+2025-08-27 19:41:24 --- HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@64e6ac31
+2025-08-27 19:41:24 --- HikariPool-1 - Start completed.
+2025-08-27 19:41:24 --- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-27 19:41:28 --- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-27 19:41:29 --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:41:30 --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-27 19:41:31 --- LiveReload server is running on port 35729
+2025-08-27 19:41:32 --- Tomcat started on port 80 (http) with context path '/'
+2025-08-27 19:41:32 --- Started LocadoraDeFilmesApplication in 18.272 seconds (process running for 21.14)
+2025-08-27 19:41:38 --- Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27 19:41:38 --- Graceful shutdown complete
+2025-08-27 19:41:38 --- Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:41:38 --- HikariPool-1 - Shutdown initiated...
+2025-08-27 19:41:38 --- HikariPool-1 - Shutdown completed.
+2025-08-27 19:45:55 --- Starting LocadoraDeFilmesApplication using Java 21.0.6 with PID 9860 (C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes\target\classes started by Notebook Alex in C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes)
+2025-08-27 19:45:55 --- Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27 19:45:55 --- No active profile set, falling back to 1 default profile: "default"
+2025-08-27 19:45:55 --- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-27 19:45:55 --- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-27 19:45:58 --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 19:45:58 --- Finished Spring Data repository scanning in 161 ms. Found 1 JPA repository interface.
+2025-08-27 19:46:00 --- Tomcat initialized with port 80 (http)
+2025-08-27 19:46:00 --- Starting service [Tomcat]
+2025-08-27 19:46:00 --- Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27 19:46:00 --- Initializing Spring embedded WebApplicationContext
+2025-08-27 19:46:00 --- Root WebApplicationContext: initialization completed in 4990 ms
+2025-08-27 19:46:01 --- HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 19:46:01 --- HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-08-27 19:46:01 --- HHH000026: Second-level cache disabled
+2025-08-27 19:46:03 --- No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-27 19:46:03 --- HikariPool-1 - Starting...
+2025-08-27 19:46:03 --- HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f18a694
+2025-08-27 19:46:03 --- HikariPool-1 - Start completed.
+2025-08-27 19:46:04 --- HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-27 19:46:08 --- HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-27 19:46:08 --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:46:09 --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-27 19:46:10 --- LiveReload server is running on port 35729
+2025-08-27 19:46:10 --- Tomcat started on port 80 (http) with context path '/'
+2025-08-27 19:46:10 --- Started LocadoraDeFilmesApplication in 16.853 seconds (process running for 19.466)
+2025-08-27 19:46:22 --- Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27 19:46:22 --- Graceful shutdown complete
+2025-08-27 19:46:22 --- Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:46:22 --- HikariPool-1 - Shutdown initiated...
+2025-08-27 19:46:22 --- HikariPool-1 - Shutdown completed.
+2025-08-27 19:46:38 - Starting LocadoraDeFilmesApplication using Java 21.0.6 with PID 808 (C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes\target\classes started by Notebook Alex in C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes)
+2025-08-27 19:46:38 - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27 19:46:38 - No active profile set, falling back to 1 default profile: "default"
+2025-08-27 19:46:38 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-27 19:46:38 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-27 19:46:41 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 19:46:41 - Finished Spring Data repository scanning in 173 ms. Found 1 JPA repository interface.
+2025-08-27 19:46:43 - Tomcat initialized with port 80 (http)
+2025-08-27 19:46:43 - Starting service [Tomcat]
+2025-08-27 19:46:43 - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27 19:46:43 - Initializing Spring embedded WebApplicationContext
+2025-08-27 19:46:43 - Root WebApplicationContext: initialization completed in 4770 ms
+2025-08-27 19:46:44 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 19:46:44 - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-08-27 19:46:44 - HHH000026: Second-level cache disabled
+2025-08-27 19:46:45 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-27 19:46:45 - HikariPool-1 - Starting...
+2025-08-27 19:46:46 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78488a57
+2025-08-27 19:46:46 - HikariPool-1 - Start completed.
+2025-08-27 19:46:46 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-27 19:46:50 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-27 19:46:50 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:46:50 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-27 19:46:52 - LiveReload server is running on port 35729
+2025-08-27 19:46:52 - Tomcat started on port 80 (http) with context path '/'
+2025-08-27 19:46:52 - Started LocadoraDeFilmesApplication in 15.308 seconds (process running for 17.74)
+2025-08-27 19:47:34 - Restarting due to 11 class path changes (0 additions, 11 deletions, 0 modifications)
+2025-08-27 19:47:34 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27 19:47:34 - Graceful shutdown complete
+2025-08-27 19:47:34 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:47:34 - HikariPool-1 - Shutdown initiated...
+2025-08-27 19:47:34 - HikariPool-1 - Shutdown completed.
+2025-08-27 19:47:38 - Starting LocadoraDeFilmesApplication using Java 21.0.6 with PID 808 (C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes\target\classes started by Notebook Alex in C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes)
+2025-08-27 19:47:38 - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27 19:47:38 - No active profile set, falling back to 1 default profile: "default"
+2025-08-27 19:47:38 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 19:47:38 - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2025-08-27 19:47:39 - Tomcat initialized with port 80 (http)
+2025-08-27 19:47:39 - Starting service [Tomcat]
+2025-08-27 19:47:39 - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27 19:47:39 - Initializing Spring embedded WebApplicationContext
+2025-08-27 19:47:39 - Root WebApplicationContext: initialization completed in 1138 ms
+2025-08-27 19:47:39 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 19:47:39 - HHH000026: Second-level cache disabled
+2025-08-27 19:47:39 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-27 19:47:39 - HikariPool-2 - Starting...
+2025-08-27 19:47:39 - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@26b78a62
+2025-08-27 19:47:39 - HikariPool-2 - Start completed.
+2025-08-27 19:47:39 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-27 19:47:39 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-27 19:47:39 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:47:40 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-27 19:47:40 - LiveReload server is running on port 35729
+2025-08-27 19:47:40 - Tomcat started on port 80 (http) with context path '/'
+2025-08-27 19:47:40 - Started LocadoraDeFilmesApplication in 2.495 seconds (process running for 66.056)
+2025-08-27 19:47:40 - Condition evaluation unchanged
+2025-08-27 19:48:04 - Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2025-08-27 19:48:04 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27 19:48:04 - Graceful shutdown complete
+2025-08-27 19:48:04 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:48:04 - HikariPool-2 - Shutdown initiated...
+2025-08-27 19:48:04 - HikariPool-2 - Shutdown completed.
+2025-08-27 19:48:04 - Starting LocadoraDeFilmesApplication using Java 21.0.6 with PID 808 (C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes\target\classes started by Notebook Alex in C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes)
+2025-08-27 19:48:04 - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27 19:48:04 - No active profile set, falling back to 1 default profile: "default"
+2025-08-27 19:48:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 19:48:05 - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2025-08-27 19:48:06 - Tomcat initialized with port 80 (http)
+2025-08-27 19:48:06 - Starting service [Tomcat]
+2025-08-27 19:48:06 - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27 19:48:06 - Initializing Spring embedded WebApplicationContext
+2025-08-27 19:48:06 - Root WebApplicationContext: initialization completed in 1204 ms
+2025-08-27 19:48:06 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 19:48:06 - HHH000026: Second-level cache disabled
+2025-08-27 19:48:06 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-27 19:48:06 - HikariPool-3 - Starting...
+2025-08-27 19:48:06 - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@2df27d5d
+2025-08-27 19:48:06 - HikariPool-3 - Start completed.
+2025-08-27 19:48:06 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-27 19:48:06 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-27 19:48:06 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:48:06 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-27 19:48:07 - LiveReload server is running on port 35729
+2025-08-27 19:48:07 - Tomcat started on port 80 (http) with context path '/'
+2025-08-27 19:48:07 - Started LocadoraDeFilmesApplication in 3.05 seconds (process running for 93.271)
+2025-08-27 19:48:07 - Condition evaluation unchanged
+2025-08-27 19:48:10 - Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
+2025-08-27 19:48:10 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27 19:48:10 - Graceful shutdown complete
+2025-08-27 19:48:10 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:48:10 - HikariPool-3 - Shutdown initiated...
+2025-08-27 19:48:10 - HikariPool-3 - Shutdown completed.
+2025-08-27 19:48:11 - Starting LocadoraDeFilmesApplication using Java 21.0.6 with PID 808 (C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes\target\classes started by Notebook Alex in C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes)
+2025-08-27 19:48:11 - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27 19:48:11 - No active profile set, falling back to 1 default profile: "default"
+2025-08-27 19:48:13 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 19:48:13 - Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interface.
+2025-08-27 19:48:14 - Tomcat initialized with port 80 (http)
+2025-08-27 19:48:14 - Starting service [Tomcat]
+2025-08-27 19:48:14 - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27 19:48:14 - Initializing Spring embedded WebApplicationContext
+2025-08-27 19:48:14 - Root WebApplicationContext: initialization completed in 3319 ms
+2025-08-27 19:48:14 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 19:48:14 - HHH000026: Second-level cache disabled
+2025-08-27 19:48:14 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-27 19:48:14 - HikariPool-4 - Starting...
+2025-08-27 19:48:15 - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@603cf962
+2025-08-27 19:48:15 - HikariPool-4 - Start completed.
+2025-08-27 19:48:15 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-27 19:48:15 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-27 19:48:15 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:48:15 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-27 19:48:16 - LiveReload server is running on port 35729
+2025-08-27 19:48:16 - Tomcat started on port 80 (http) with context path '/'
+2025-08-27 19:48:16 - Started LocadoraDeFilmesApplication in 5.381 seconds (process running for 101.756)
+2025-08-27 19:48:16 - Condition evaluation unchanged
+2025-08-27 19:49:51 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27 19:49:51 - Graceful shutdown complete
+2025-08-27 19:49:51 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:49:51 - HikariPool-4 - Shutdown initiated...
+2025-08-27 19:49:51 - HikariPool-4 - Shutdown completed.
+2025-08-27 19:50:05 - Starting LocadoraDeFilmesApplication using Java 21.0.6 with PID 5160 (C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes\target\classes started by Notebook Alex in C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes)
+2025-08-27 19:50:05 - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27 19:50:05 - No active profile set, falling back to 1 default profile: "default"
+2025-08-27 19:50:05 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-27 19:50:05 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-27 19:50:08 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 19:50:08 - Finished Spring Data repository scanning in 236 ms. Found 1 JPA repository interface.
+2025-08-27 19:50:10 - Tomcat initialized with port 80 (http)
+2025-08-27 19:50:10 - Starting service [Tomcat]
+2025-08-27 19:50:10 - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27 19:50:10 - Initializing Spring embedded WebApplicationContext
+2025-08-27 19:50:10 - Root WebApplicationContext: initialization completed in 4966 ms
+2025-08-27 19:50:11 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 19:50:11 - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-08-27 19:50:11 - HHH000026: Second-level cache disabled
+2025-08-27 19:50:12 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-27 19:50:12 - HikariPool-1 - Starting...
+2025-08-27 19:50:13 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2c0dac16
+2025-08-27 19:50:13 - HikariPool-1 - Start completed.
+2025-08-27 19:50:13 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-27 19:50:18 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-27 19:50:18 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:50:21 - LiveReload server is running on port 35729
+2025-08-27 19:50:21 - Tomcat started on port 80 (http) with context path '/'
+2025-08-27 19:50:21 - Started LocadoraDeFilmesApplication in 17.914 seconds (process running for 20.427)
+2025-08-27 19:54:56 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-27 19:54:56 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27 19:54:56 - Graceful shutdown complete
+2025-08-27 19:54:56 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:54:56 - HikariPool-1 - Shutdown initiated...
+2025-08-27 19:54:56 - HikariPool-1 - Shutdown completed.
+2025-08-27 19:54:56 - Starting LocadoraDeFilmesApplication using Java 21.0.6 with PID 5160 (C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes\target\classes started by Notebook Alex in C:\Users\Notebook Alex\Documents\GitHub\locadoraDeFilmes\locadoraDeFilmes)
+2025-08-27 19:54:56 - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-08-27 19:54:56 - No active profile set, falling back to 1 default profile: "default"
+2025-08-27 19:54:57 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27 19:54:57 - Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2025-08-27 19:54:58 - Tomcat initialized with port 80 (http)
+2025-08-27 19:54:58 - Starting service [Tomcat]
+2025-08-27 19:54:58 - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-08-27 19:54:58 - Initializing Spring embedded WebApplicationContext
+2025-08-27 19:54:58 - Root WebApplicationContext: initialization completed in 2015 ms
+2025-08-27 19:54:58 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27 19:54:58 - HHH000026: Second-level cache disabled
+2025-08-27 19:54:58 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-27 19:54:58 - HikariPool-2 - Starting...
+2025-08-27 19:54:59 - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@d1a77c
+2025-08-27 19:54:59 - HikariPool-2 - Start completed.
+2025-08-27 19:54:59 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-27 19:54:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-27 19:54:59 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:55:00 - LiveReload server is running on port 35729
+2025-08-27 19:55:00 - Tomcat started on port 80 (http) with context path '/'
+2025-08-27 19:55:00 - Started LocadoraDeFilmesApplication in 4.393 seconds (process running for 300.147)
+2025-08-27 19:55:00 - Condition evaluation unchanged
+2025-08-27 19:56:17 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27 19:56:17 - Graceful shutdown complete
+2025-08-27 19:56:17 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27 19:56:17 - HikariPool-2 - Shutdown initiated...
+2025-08-27 19:56:17 - HikariPool-2 - Shutdown completed.

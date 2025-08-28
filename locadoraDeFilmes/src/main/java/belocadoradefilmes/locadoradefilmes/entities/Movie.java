@@ -36,6 +36,4 @@ public class Movie
     @Column(name = "rating", length = 2)
     private int rating;
 
-
-
 }
